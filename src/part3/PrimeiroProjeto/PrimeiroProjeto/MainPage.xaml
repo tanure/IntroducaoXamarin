@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PrimeiroProjeto"
+             x:Class="PrimeiroProjeto.MainPage">
+
+    <StackLayout Orientation="Vertical" Padding="10">
+        
+        <Label Text="Informe algum valor" />
+        <Entry />
+
+        <StackLayout Orientation="Horizontal" Padding="5">
+            <Button Text="Botão 1" />
+            <Button Text="Botão 2" />
+        </StackLayout>
+        
+    </StackLayout>
+
+</ContentPage>
